@@ -1,0 +1,28 @@
+#conteneur
+{
+   display: flex;/*les place les un à la suite*/
+   flex-direction: row-reverse;
+   flex-wrap: wrap;/* permet le retour a la ligne si pas la place*/
+   border: 2px solid #444;
+   justify-content: space-around;
+   height: 200px;
+   align-items: center;
+
+}
+.element
+{
+   width: 150px;
+   height: 100px;
+}
+.element:nth-child(1)
+{
+  background-color: orange; 
+}
+.element:nth-child(2)
+{
+  background-color: blue; 
+}
+.element:nth-child(3)
+{
+  background-color: #ad6; 
+}
